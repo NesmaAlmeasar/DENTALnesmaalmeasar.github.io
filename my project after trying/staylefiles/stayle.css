@@ -1,0 +1,464 @@
+
+* {
+    padding: 0px ;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    scroll-behavior: smooth;
+}
+body{
+    background-size: cover; 
+    background-color: rgb(227, 194, 234);
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    color: #c1cfe0;
+    align-content: center;
+    font-size: 20px;
+}
+
+h2 ,h4{
+    text-align: center !important;
+    margin: 30px ;
+    color: #000;
+}
+a:hover{
+opacity: 40%;
+
+}
+img{
+    width:60rem;
+     height: 40rem;
+}
+.imgicon{
+    height: 40px;
+    width: 40px;
+    background-color:rgb(125, 185, 210); ;
+    border-radius: 50%;
+    margin: 2px;
+    left: 0;
+}
+nav{
+    position: fixed;
+    width: 100% ;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 5px 10%;
+    transition: all .45s ease ;
+    background-color: #000;
+    opacity: .6;
+    z-index: 999;   
+}
+.profilinfo{
+    color: beige;
+    font-size: 300x ;
+    font-weight: 600;
+    display:flex;
+}
+.navlist{
+    display: flex;
+
+}
+
+   
+.navlist a {
+    color: rgb(125, 185, 210);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 40px;
+    transition: all .45s ease;
+
+}
+.navlist a:hover{
+
+    font-size: 22px;
+    color: rgb(15, 15, 15);
+    background-color: rgb(220, 186, 236);
+    border-radius: 5%;
+    transition: all .45s  ease ; 
+}
+aside{
+    position: fixed;
+    left: 0;
+    background-color:rgb(125, 185, 210) ;
+    width: 20%;
+    height: 100%;
+    padding: 3rem;
+    margin-top: 0rem;
+    border: 3px solid rgb(220, 186, 236);
+    z-index: -1;
+    overflow: hidden;
+
+}
+aside h4{
+    font-size: large;
+    background-color:rgba(220, 186, 236, 0.597);
+    border-radius: 50px;
+    color: #000;
+    text-align: center;
+    display: block;
+    margin: 10%;
+}
+
+.photoes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.photo
+{
+    display:flex;
+    border: 1px solid pink;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+
+}
+.communcat{
+    bottom: 10px;
+    padding: 10px;
+    margin-right: 0px;
+    z-index: 1;
+
+}
+.communcat .imgicon{
+    border: none;
+
+}
+.communcat .imgicon :hover{
+    filter: opacity(1.45s);
+    transform: scale(1.1,1.1);
+}
+article{
+    background-color: rgba(220, 186, 236, 0.63);
+    right: 0;
+    width: 80%;
+}
+header
+{
+    width: 100%;
+    height: 1000px;
+    color: rgba(220, 186, 236, 0.851);
+    background-color:rgb(125, 185, 210) ;
+    background-image: url(../imgs/6.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+header h1{
+    font-size:90px;
+    left: 0;
+ margin-right: 70%;
+ margin-top: 40%;
+ color: #000;
+padding: 1px;
+}
+
+section{
+    padding-top: 60px;
+    height: 900px;
+    line-height:normal;
+    overflow: hidden;
+    text-align: center;
+
+}
+section h2{
+    display:inline-block;
+    border-radius: 7px;
+    border: 1px solid pink;
+    padding: 7px;
+    text-align: center;
+
+}
+.home{
+    display: flex;
+    background-image: url(../imgs/backgr.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+.maincontan{
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    background-image: url(../imgs/backgr.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;}
+.rightsaid{
+    width: 20%;
+    height: 100%;
+   padding: 3px; 
+}
+
+.cardscontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card
+{
+    margin: 30px;
+    text-align: center;
+    width: 40%;
+    box-shadow:  3px 3px 5px 6px rgba(8, 11, 13, 0.548);
+    margin-right: 30px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color:  rgba(125, 185, 210, 0.536);
+  border-radius: 30px;
+color: #000;
+font-size: 33px;
+padding: 10px;
+
+}
+.cardsmall
+{
+    width: 10%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.cardsmall img{
+width: 100px;
+height: 100px;
+
+}
+.card  :hover{
+    transform: scale(1.1,1.1);
+    border-radius: 30px;
+
+}
+.card h3{
+    margin: 10px;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+}
+
+.card p {
+    line-height: 20px;
+    font-size:large;
+    margin: 10px;
+}
+/* about us*/
+
+.aboutus{
+    background-color:rgb(125, 185, 210) ;
+    display: block;
+    text-align: center;
+    padding: 20px;
+
+}
+.aboutdiv{
+    display: flex;
+}
+.aboutus h3{
+    display: inline-block;
+    text-align: center;
+    background-color:rgba(125, 185, 210, 0.666);
+}
+
+.aboutus div div {
+    border-radius: 30px;
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+    color: #000;
+    margin: 40px;
+    padding: 20px;
+    font-size: 30px;
+    background-size:contain;
+    overflow: hidden;
+}
+.aboutus .imgabout{
+  padding: 0px;
+  overflow: hidden;
+  -moz-box-direction: normal;
+}
+.aboutus .imgabout img{
+    width: 30%;
+    height: 450px;
+    position: absolute;
+    margin-left: 0%;
+
+
+}
+.aboutus .imgabout .img1:hover {
+opacity: 70%;
+transform: translate(50px,100px);
+
+
+}
+
+.aboutus div span{
+    display: inline-block;
+    border-radius: 3px;
+    background-color:rgba(125, 185, 210, 0.882); 
+
+
+}
+/*--------------
+
+.Services
+
+----------------*/
+
+
+.Services{
+  text-align: center;
+  background-color:rgb(125, 185, 210) ;
+  margin:20px 0px;
+  padding: 30px 0px;
+
+}
+
+.Services h2{
+  display: inline-block;
+  margin-bottom: 30px;
+  color:white
+}
+
+.Service .info {
+display: flex;
+justify-content: space-between;
+padding: 0px 10px;
+}
+.Service .info p{
+ font-size: 22px;
+  }
+.Service .info a {
+text-decoration: none;
+background-color: rgba(220, 186, 236, 0.875);
+padding: 12px;
+border-radius: 10px;
+color: white;
+font-size: 20px;
+display: flex;
+align-items: center;
+height: 20px;
+flex-shrink: 0;
+}
+.Service .info a:hover{
+    opacity: 55%;
+}
+.Servicecontainer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+.Service{
+  margin:  10px;
+  border:solid black;
+  color: #000;
+  background-color: rgb(125, 185, 210);
+  border-radius: 20px;
+  width:16em;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.Servicecontainer  :hover{
+    box-sizing: border-box;
+    transform-box: translate(50px,100px);
+    }
+
+.Service-image{
+ /*   border:solid black;*/
+    background-color:  rgb(125, 185, 210);
+    border-radius: 20px;
+    width:16em;
+    height: 90%;
+    padding-bottom: 10px;
+    overflow: hidden;
+ }
+
+ .Service-image img{
+     height: 12em;
+     width: 100%;
+ }
+
+
+/* record*/
+.record{
+    background-color: rgb(125, 185, 210);
+    text-align: center;
+    display: flex;
+
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+}
+
+input[type=submit] {
+  background-color:rgba(227, 194, 234, 0.741);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color:rgba(227, 194, 234, 0.571);
+}
+.container {
+    border: 2px solid rgba(227, 194, 234, 0.793);;
+  border-radius: 5px;
+  padding: 10px;
+width: 100%;}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.column1{
+    float: right;
+    width: 40%;
+    height: 35%;
+    border-radius: 7px;
+    margin: 10px;
+    margin-top: 6px;
+    padding: 20px;
+    overflow: hidden;
+    background-size: cover; 
+    background-attachment: local;
+     background-image: url(../imgs/8.png);
+}
+footer{
+    width: 100% ;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 5px 10%;
+    transition: all .45s ease ;
+    background-color: #000;
+    opacity: .6;
+    overflow:hidden;
+}
+footer .footcol{
+    direction: rtl;
+}
+footer div{
+    width: 35%;
+
+}
+
+footer .communcat{
+    display: flex;
+    padding: 5px;
+}
